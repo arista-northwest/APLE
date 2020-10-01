@@ -22,7 +22,7 @@ The Arista Policy Language Evaluator (APLE) is a python script used to evaluate 
 **N3** - iBGP peer to N1.  
 **N4** - The DUT for RCF-in and RCF-out.  
 
-![](/Users/paulc/Desktop/TOPO.jpg)
+![](/images/TOPO.jpg)
 
 
 ## Arguments
