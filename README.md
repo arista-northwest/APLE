@@ -1,4 +1,4 @@
-Prepared by: <msft-team@arista.com>  <img align="right" width="100" height="100"src=/images/PIE.png> 
+Prepared by: <msft-team@arista.com>  
 Date: September 30th, 2020  
 Version: 1.0
 
