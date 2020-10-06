@@ -25,11 +25,11 @@ args = parser.parse_args()
 # SETTING eAPI PARAMS
 ###############################################################################
 
-n1      = pyeapi.connect(transport='https', host='34.83.48.244', username='eapi', password='admin', port=4000)
+n1      = pyeapi.connect(transport='https', host='', username='eapi', password='admin', port=4000)
 n1eapi  = pyeapi.client.Node(n1)
-n2      = pyeapi.connect(transport='https', host='34.83.48.244', username='eapi', password='admin', port=4010)
+n2      = pyeapi.connect(transport='https', host='', username='eapi', password='admin', port=4010)
 n2eapi  = pyeapi.client.Node(n2)
-n3      = pyeapi.connect(transport='https', host='34.83.48.244', username='eapi', password='admin', port=4020)
+n3      = pyeapi.connect(transport='https', host='', username='eapi', password='admin', port=4020)
 n3eapi  = pyeapi.client.Node(n3)
 n4      = ''
 n4eapi  = ''
