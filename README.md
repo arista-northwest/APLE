@@ -119,7 +119,13 @@ Since source protocol BGP is a new feature it is **#commented** out.  The script
 If succesfull the following will print out.  
 
 ```
-#################### READ POLICY AND CONFIGURE PEER N1-N4 ####################
+#################### READ POLICY AND CONFIGURE N1-N4 ####################
+N2 - Coniguring color 10293 on route route-map 10 for prefix 25.0.0.255/32
+N1 - Configuring extended community list for color 10293
+N2 - Coniguring AS path prepend 8068 on route-map 10
+N1 - Configuring AS-path access list for 8068
+N2 - Coniguring AS path prepend 8068 on route-map 20
+N1 - Configuring AS-path access list for 8068
 ### CONFIG COMPLETE
 ```
 ## Step 2 - Pre-policy Evaluation
