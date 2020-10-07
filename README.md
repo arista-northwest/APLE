@@ -30,15 +30,15 @@ The Arista Policy Language Evaluator (APLE) is a python script used to evaluate 
 If you wish to either generate the baseline configs used to test policies or build the cEOS topology, pass in the arguments below.
 
 ```
-usage: APLE.py [-h] [--baseline BASELINE] [--topo TOPO]
+usage: APLE.py [-h] [--set SET] [--topo TOPO] [--v6 V6]
 
 Define what additional arguments you want to pass to the tool
 
 optional arguments:
-  -h, --help           show this help message and exit
-  --set SET			   This will grep for the IP addresses of N1-N4 used for eAPI.
-  --baseline BASELINE  Generates configs for N1-N4 with a set of baseline parameters to test against
-  --topo TOPO          Build a two node PTP BGP peer topology between two cEOS containers
+  -h, --help   show this help message and exit
+  --set SET    Configures n1-n4 with a set of baseline parameters to test against
+  --topo TOPO  Builds a 4 node PTP BGP peer topology between two cEOS containers
+  --v6 V6      Evaluates RCF for a v6 policy
 
 ```
 
